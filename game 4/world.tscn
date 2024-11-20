@@ -1,0 +1,54 @@
+[gd_scene load_steps=3 format=3 uid="uid://xgi5k77bdjtl"]
+
+[ext_resource type="PackedScene" uid="uid://dvddrh8mtwc20" path="res://player.tscn" id="1_n5gns"]
+[ext_resource type="PackedScene" uid="uid://bux8nytlea45b" path="res://zombie.tscn" id="2_ldu01"]
+
+[node name="world" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_n5gns")]
+position = Vector2(528, 293)
+
+[node name="Zombie3" parent="." instance=ExtResource("2_ldu01")]
+position = Vector2(34, 1274)
+
+[node name="Zombie" parent="." instance=ExtResource("2_ldu01")]
+position = Vector2(222, -810)
+
+[node name="Zombie2" parent="." instance=ExtResource("2_ldu01")]
+position = Vector2(1737, 372)
+
+[node name="Zombie7" parent="." instance=ExtResource("2_ldu01")]
+position = Vector2(1928, -1283)
+
+[node name="Zombie9" parent="." instance=ExtResource("2_ldu01")]
+position = Vector2(2437, 1994)
+
+[node name="Zombie10" parent="." instance=ExtResource("2_ldu01")]
+position = Vector2(-3367, 1794)
+
+[node name="Zombie8" parent="." instance=ExtResource("2_ldu01")]
+position = Vector2(-1345, -1443)
+
+[node name="Zombie6" parent="." instance=ExtResource("2_ldu01")]
+position = Vector2(-5118, 1398)
+
+[node name="Zombie5" parent="." instance=ExtResource("2_ldu01")]
+position = Vector2(3592, -27)
+
+[node name="Zombie14" parent="." instance=ExtResource("2_ldu01")]
+position = Vector2(-2358, 1139)
+
+[node name="Zombie15" parent="." instance=ExtResource("2_ldu01")]
+position = Vector2(4678, -2035)
+
+[node name="Zombie13" parent="." instance=ExtResource("2_ldu01")]
+position = Vector2(-890, 317)
+
+[node name="Zombie12" parent="." instance=ExtResource("2_ldu01")]
+position = Vector2(-3245, -2060)
+
+[node name="Zombie11" parent="." instance=ExtResource("2_ldu01")]
+position = Vector2(-48, 2919)
+
+[node name="Zombie4" parent="." instance=ExtResource("2_ldu01")]
+position = Vector2(-6006, -1781)
